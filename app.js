@@ -73,7 +73,7 @@ function play(e)
      if(winner==='player'){
          scoreboard.player++;
          result.innerHTML=`
-         <h1 class="text-win">You Win</h1>
+         <h1 class="text-win">Yuvaan Win</h1>
          <i class="fas fa-hand-${computerChoice} fa-10x"></i>
          <p>Computer chose <strong>${computerChoice}</strong></p>
          `;
@@ -82,7 +82,7 @@ function play(e)
      else if(winner==='computer'){
         scoreboard.computer++;
         result.innerHTML=`
-        <h1 class="text-lose">You Lose</h1>
+        <h1 class="text-lose">Yuvaan Lose</h1>
         <i class="fas fa-hand-${computerChoice} fa-10x"></i>
         <p>Computer chose <strong>${computerChoice}</strong></p>
         `;
